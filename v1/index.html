@@ -23,11 +23,11 @@
         <img src="logo1.png" alt="logo" />
         <h1>Quote It</h1>
       </div>
-      <button class="btn btn-large">Share a Quote</button>
+      <button class="btn btn-large btn-share">Share a Quote</button>
     </header>
 
     <!--Post-->
-    <form class="quote-form">
+    <form class="quote-form hidden">
       <input type="text" placeholder="Share a Quote" />
       <span>200</span>
       <input type="text" placeholder="Trustworthy Source..." />
@@ -53,7 +53,7 @@
 
       <!--Quotes-->
       <section>
-        <ul>
+        <ul class="quote-list">
           <li class="quote">
             <p>React is being developed by Meta (formerly facebook)
               <a class="source" href="https://opensource.fb.com/" target="_blank">(Source)</a>
@@ -85,6 +85,8 @@
       </section>
     </main>
   </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
