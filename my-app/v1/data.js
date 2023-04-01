@@ -15,9 +15,9 @@ const initialFacts = [
     text: "React is being developed by Meta (formerly facebook)",
     source: "https://opensource.fb.com/",
     category: "technology",
-    votesInteresting: 24,
-    votesMindblowing: 9,
-    votesFalse: 4,
+    likes: 24,
+    dislikes: 9,
+    false: 4,
     createdIn: 2021,
   },
   {
@@ -26,9 +26,9 @@ const initialFacts = [
     source:
       "https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids",
     category: "society",
-    votesInteresting: 11,
-    votesMindblowing: 2,
-    votesFalse: 0,
+    likes: 11,
+    dislikes: 2,
+    false: 0,
     createdIn: 2019,
   },
   {
@@ -36,9 +36,9 @@ const initialFacts = [
     text: "Lisbon is the capital of Portugal",
     source: "https://en.wikipedia.org/wiki/Lisbon",
     category: "society",
-    votesInteresting: 8,
-    votesMindblowing: 3,
-    votesFalse: 1,
+    likes: 8,
+    dislikes: 3,
+    false: 1,
     createdIn: 2015,
   }
 ];

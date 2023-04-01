@@ -18,6 +18,14 @@ body{
   display: none !important;
 }
 
+.message{
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 #root{
  max-width: 1400px;
  margin: 0 auto;
@@ -27,6 +35,22 @@ body{
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
+}
+
+.introduction {
+  display: block;
+  text-align: center;
+  font-family: 'Tilt Neon', sans-serif;
+  border: 2px solid #a1f5ce;
+  margin-bottom: 40px;
+  width: auto;
+  padding: 25px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.introduction h3 {
+  margin-bottom: 20px;
 }
 
 .logo{
@@ -59,6 +83,9 @@ h1{
 }
 
 @media (max-width: 600px) {
+  .main{
+    display: block;
+  }
 
   .header{
     flex-direction: column;
@@ -80,6 +107,15 @@ h1{
   }
 }
 
+section{
+  margin-bottom: 30px;
+}
+
+section p{
+  margin-top: 30px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
 .category{
   margin-bottom: 16px;
 }
@@ -88,15 +124,25 @@ h1{
   font-size: 20px;
   line-height: 1.4;
   font-family: 'Tilt Neon', sans-serif;
-  background-color: #ecfdf5;
+  background-color: #edfaf4;
   margin-bottom: 16px;
   padding: 16px 24px;
   border-radius: 16px;
   display: flex;
   align-items: center;
   gap: 24px;
+  border: 1px solid #a1f5ce;
 }
 
+@media (max-width: 300px) {
+  .main{
+    display: block;
+  }
+  .quote{
+    font-size: 17px;
+  }
+}
+  
 @media (max-width: 1200px) {
   .quote{
     flex-direction: column;
@@ -206,7 +252,7 @@ ul{
 .quote-form input,
 .quote-form select{
   max-width: auto;
-  background-color: #f5f8f7;
+  background-color: #ffffff;
   border: none;
   border-radius: 20px;
   padding: 15px;

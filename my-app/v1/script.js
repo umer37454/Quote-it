@@ -15,12 +15,12 @@ btnShare.addEventListener("click", () => {
 
 //fetching data
 async function loadquotes() {
-  // const res = await fetch("https://djtfohzgnwovwqeglscb.supabase.co/rest/v1/quotes", {
-  //   headers: {
-  //     apikey: 
-  //     authorization: 
-  //   }
-  // });
+  const res = await fetch("https://djtfohzgnwovwqeglscb.supabase.co/rest/v1/quotes", {
+    headers: {
+      apikey: "",
+      authorization: ""
+    }
+  });
 
   const data = await res.json();
   console.log(data);
