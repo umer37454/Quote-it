@@ -58,6 +58,10 @@ body{
   margin-bottom: 20px;
 }
 
+.introduction a{
+  color: #047857;
+}
+
 .logo{
   display: flex;
   align-items: center;

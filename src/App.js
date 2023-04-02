@@ -61,7 +61,7 @@ function Introduction() {
         <h3>Ansari Umer</h3>
         <p>This is a full stack responsive project made with HTML/CSS, JavaScript/React and Supabase.
           Click above "Share a quote" button to share a quote with a world. Scroll down to see quotes from
-          other users.
+          other users. <a href="https://github.com/umer37454/Quote-it" target="_blank">Github Link</a>
         </p>
       </div>
     </>
