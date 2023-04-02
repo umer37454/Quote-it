@@ -12,7 +12,7 @@ This project was made using HTML, CSS, JavaScript/React and Supabase. React is a
 
 ## Description
 
-It is full stack web application that allows users to upload their Quotes to the website with a an additional and necessary option to upload it with trustworthy source along with category. A feature is provided to filtered out quotes depending upon the categories. Like, Dislikes and False feature can be used in case user wants to like/dislike or mark false to the quotes. A disputed mark will appear if the quote have more false count than the combined count of likes and dislikes. Errors are also handled if user submits the invalid data or doesn't provide the source url in the proper format along with server failure error.
+It is full stack web application that allows users to upload their Quotes to the website with an additional and necessary option to upload it with trustworthy source along with category. A feature is provided to filtered out quotes depending upon the categories. Like, Dislikes and False feature can be used in case user wants to like/dislike or mark false to the quotes. A disputed mark will appear if the quote have more false count than the combined count of likes and dislikes. Errors are also handled if user submits the invalid data or doesn't provide the source URL in the proper format along with server failure error.
 
 <br>
 
