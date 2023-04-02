@@ -18,6 +18,11 @@ body{
   display: none !important;
 }
 
+.disputed {
+  padding-right: 10px;
+  color: red;
+}
+
 .message{
   font-family: 'Tilt Neon', sans-serif;
   font-size: 30px;
@@ -82,6 +87,18 @@ h1{
   font-family: 'Coiny', sans-serif;
 }
 
+@media (min-width: 900px) {
+  section{
+    overflow: scroll;
+    padding-bottom: 40px;
+  }
+
+  main {
+    height: calc(100vh - 48px - 68px - 40px);
+  }
+}
+
+
 @media (max-width: 600px) {
   .main{
     display: block;
@@ -142,7 +159,7 @@ section p{
     font-size: 17px;
   }
 }
-  
+
 @media (max-width: 1200px) {
   .quote{
     flex-direction: column;
