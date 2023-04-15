@@ -138,7 +138,7 @@ function NewQuoteForm({ setQuotes, setshowForm }) {
       //close the form
       setshowForm(false);
     } else {
-      alert("Invalid data.. Please add the data correctly..");
+      alert("Invalid data.. Provie the data correctly.. and make sure to include http: or https: in your url");
     }
   }
 
@@ -152,7 +152,7 @@ function NewQuoteForm({ setQuotes, setshowForm }) {
         />
         <span>{200 - text.length}</span>
         <input
-          type="text" placeholder="Trustworthy Source..."
+          type="text" placeholder="Trustworthy Source... include http: or https: in your url"
           value={source} onChange={(e) => { setSource(e.target.value) }}
           disabled={isUploading}
         />
