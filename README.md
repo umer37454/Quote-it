@@ -12,10 +12,16 @@ This project was made using HTML, CSS, JavaScript/React and Supabase. React is a
 
 ## Description
 
-It is full stack web application that allows users to upload their Quotes to the website with an additional and necessary option to upload it with trustworthy source along with category. A feature is provided to filtered out quotes depending upon the categories. Like, Dislikes and False feature can be used in case user wants to like/dislike or mark false to the quotes. A disputed mark will appear if the quote have more false count than the combined count of likes and dislikes. Errors are also handled if user submits the invalid data or doesn't provide the source URL in the proper format along with server failure error.
+As a Full Stack Web Developer, I developed a web application that allows users to upload their quotes to the website with a necessary option to include a trustworthy source and category. The application includes a filter feature that enables users to sort quotes based on their respective categories.
+
+To enhance user engagement, I incorporated features such as like, dislike, and false buttons that allow users to express their opinion on the uploaded quotes. Additionally, the application includes a disputed mark feature that appears if a quote has a higher count of false flags than the combined count of likes and dislikes.
+
+To ensure data accuracy, the application includes error handling features that detect invalid data submissions or missing source URLs in the proper format. The server failure error is also handled effectively.
+
+Overall, this project showcases my skills in full-stack web development, including designing responsive user interfaces, implementing robust backend systems, and incorporating engaging features that promote user interaction.
 
 <br>
 
 ## Knowledge gained
 
-While making this project I learned a lot about how React help in making the development faster rather than using pure JavaScript. Understand how React divide the UI pages into components and breake it down in small parts to make it easier while building it. Gained a knowledge of React concepts such as Props, State, Hooks function like useState and useEffect. 
+During the development process, I gained extensive knowledge of React and its benefits in accelerating the development process compared to using pure JavaScript. I learned how React divides UI pages into components and breaks them down into smaller parts, making it easier to build complex applications. I utilized React concepts such as Props, State, and Hooks, including useState and useEffect functions, to implement dynamic functionality and create a seamless user experience.
