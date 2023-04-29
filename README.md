@@ -1,6 +1,6 @@
 # Quote it project by Ansari Umer
 
-Here a deployed project Link - https://quote-it-umer-react-project.netlify.app/
+Here a deployed project Link - https://quote-it-umer-project.netlify.app/
 
 <br>
 
